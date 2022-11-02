@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:unifavor/screens/profile/components/profile_menu.dart';
 import 'package:unifavor/screens/profile/components/profile_pic.dart';
+import 'package:unifavor/screens/splash/splash_screen.dart';
 
 class Body extends StatelessWidget {
   const Body({Key? key}) : super(key: key);
@@ -15,7 +16,7 @@ class Body extends StatelessWidget {
           SizedBox(height: 20),
           ProfileMenu(
               text: "Mi cuenta",
-              icon: "assets/icons/User Icons.svg",
+              icon: "assets/icons/User Icon.svg",
               press: () => {},
           ),
           ProfileMenu(
@@ -36,7 +37,9 @@ class Body extends StatelessWidget {
           ProfileMenu(
             text: "Cerrar sesión",
             icon: "assets/icons/Log out.svg",
-            press: () {},
+            press: () {
+              Navigator.pushNamed(context, SplashScreen.routeName);
+            },
           )
         ],
       ),

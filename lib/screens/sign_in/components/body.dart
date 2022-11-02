@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 import 'package:unifavor/components/no_account_text.dart';
 import 'package:unifavor/screens/sign_in/components/sign_form.dart';
@@ -30,9 +32,12 @@ class Body extends StatelessWidget {
                     fontWeight: FontWeight.bold,
                   ),
                 ),
-                const Text(
+                Text(
                   "Inicie sesión con su correo electrónico \ny contraseña o continúe con las redes sociales",
                   textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontSize: getProportionateScreenWidth(14),
+                  ),
                 ),
                 SizedBox(height: SizeConfig.screenHeight * 0.08),
                 SignForm(),

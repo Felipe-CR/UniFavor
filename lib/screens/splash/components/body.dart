@@ -93,7 +93,7 @@ class _BodyState extends State<Body> {
   AnimatedContainer buildDot({int? index}) {
     return AnimatedContainer(
       duration: kAnimationDuration,
-      margin: const EdgeInsets.only(right: 5),
+      margin: const EdgeInsets.only(right: 5, left: 5),
       height: 6,
       width: currentPage == index ? 20 : 6,
       decoration: BoxDecoration(
