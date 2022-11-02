@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 
 class Product{
   final int id;
@@ -26,7 +25,7 @@ List<Product> demoProducts = [
         "assets/images/Comida6_v2.PNG"
       ],
       title: "Chicharron Dulce",
-      price: 5.000,
+      price: 5000,
       description: "Chicharron con dulce",
       rating: 4.0,
       isFavourite: false,
@@ -38,7 +37,7 @@ List<Product> demoProducts = [
       "assets/images/Comida10_v2.PNG"
     ],
     title: "Hamburguesa",
-    price: 15.000,
+    price: 15000,
     description: "Hamburguesa con papas",
     rating: 5.0,
     isFavourite: true,
@@ -50,7 +49,7 @@ List<Product> demoProducts = [
       "assets/images/Comida1_v2.PNG"
     ],
     title: "Granizado de café",
-    price: 14.000,
+    price: 14000,
     description: "Un granizado de café con un acompañante de su elección",
     rating: 4.5,
     isFavourite: true,
@@ -62,7 +61,7 @@ List<Product> demoProducts = [
       "assets/images/Comida8_v2.PNG"
     ],
     title: "Combo de Café",
-    price: 8.000,
+    price: 8000,
     description: "Un café con un acompañante de su elección",
     rating: 4.3,
     isFavourite: false,
@@ -74,7 +73,7 @@ List<Product> demoProducts = [
       "assets/images/Comida9_v2.PNG"
     ],
     title: "Bandeja Paisa",
-    price: 18.000,
+    price: 18000,
     description: "Lleva una porción de arroz, frijoles, una ensalada, chicharron, carne molidad, aguacate, maduro, arepa, chorizo, un vaso de aguapanela",
     rating: 5.0,
     isFavourite: true,
