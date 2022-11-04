@@ -18,13 +18,13 @@ class CustomBottomNavBar extends StatelessWidget {
     final Color inActiveIconColor = Color(0xFFB6B6B6);
 
     return Container(
-      padding: EdgeInsets.symmetric(vertical: 14),
+      padding: EdgeInsets.symmetric(vertical: 10),
       decoration: BoxDecoration(
         color: Colors.white,
         boxShadow: [
           BoxShadow(
-            offset: Offset(0, -15),
-            blurRadius: 20,
+            offset: Offset(0, -10),
+            blurRadius: 10,
             color: Color(0xFFDADADA).withOpacity(1),
           ),
         ],
@@ -36,7 +36,7 @@ class CustomBottomNavBar extends StatelessWidget {
       child: SafeArea(
         top: false,
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             IconButton(
               icon: SvgPicture.asset(
