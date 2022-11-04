@@ -16,10 +16,10 @@ class Body extends StatelessWidget {
         child: Column(
           children: [
             SizedBox(height: getProportionateScreenHeight(20)),
-            HomeHeader(), /// The address to the CAR missing
+            HomeHeader(),
             SizedBox(height: getProportionateScreenHeight(10)),
             DiscountBanner(),
-            Categories(), ///Change the BACKGROUND COLOR
+            Categories(),
             SpecialOffers(),
             SizedBox(height: getProportionateScreenHeight(30)),
             PopularProducts(),
